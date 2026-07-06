@@ -1,5 +1,5 @@
 name: "Wi-Fi to Ethernet Gateway"
-version: "1.0.1"
+version: "1.0.2"
 slug: "wifi_eth_gateway_local"
 description: "Shares the Pi's Wi-Fi connection out to the Ethernet port."
 arch:
