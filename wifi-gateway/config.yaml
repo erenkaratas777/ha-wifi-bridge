@@ -1,0 +1,11 @@
+name: "Wi-Fi to Ethernet Gateway"
+version: "1.0.0"
+slug: "wifi_eth_gateway_local"
+description: "Shares the Pi's Wi-Fi connection out to the Ethernet port."
+arch:
+  - aarch64
+startup: "system"
+boot: "auto"
+host_network: true
+options: {}
+schema: {}
