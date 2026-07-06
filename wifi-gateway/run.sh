@@ -9,8 +9,6 @@ fi
 
 echo "Using Ethernet interface: $ETH_IF"
 
-sysctl -w net.ipv4.ip_forward=1
-
 ip addr add 10.42.0.1/24 dev $ETH_IF || true
 ip link set $ETH_IF up
 
